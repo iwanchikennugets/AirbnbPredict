@@ -146,11 +146,6 @@ st.markdown(
         background-attachment: fixed;
         color: white; /* Default text color */
     }
-
-    /* Apply semi-transparent overlays to header and main content areas for readability */
-    .stApp > header {
-        background-color: rgba(0,0,0,0.5);
-    }
     .stApp > div:first-child {
         padding: 20px;
         border-radius: 10px;
