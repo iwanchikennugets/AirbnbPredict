@@ -13,9 +13,9 @@ st.set_page_config(
 
 # Load the pre-trained machine learning model
 try:
-    model = joblib.load('model_gb_airbnb.pkl')
+    model = joblib.load('model_final_airbnb.pkl')
 except FileNotFoundError:
-    st.error("Error: Model file 'model_gb_airbnb.pkl' not found. Ensure it's in the correct directory.")
+    st.error("Error: Model file 'model_final_airbnb.pkl' not found. Ensure it's in the correct directory.")
     st.stop()
 
 # Define the central geographical reference point (Times Square/Midtown Manhattan)
